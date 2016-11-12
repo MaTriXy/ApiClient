@@ -16,7 +16,7 @@ group = "io.fabianterhorst"
                 packaging 'aar'
 
                 // Add your description here
-                name 'Components for the Api Client'
+                name 'Account Manager for the Api Client'
                 url siteUrl
 
                 // Set your license
@@ -68,7 +68,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "maven"
-        name = "apiclient-components"
+        name = "apiclient-accountmanager"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ['Apache-2.0']
